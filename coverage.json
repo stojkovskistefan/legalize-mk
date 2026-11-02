@@ -1,0 +1,1229 @@
+{
+  "spec_version": "0.5",
+  "as_of": "2026-11-01",
+  "source_index": "LDBIS (ldbis.pravda.gov.mk): every listed version of Закон, Уставен закон, Устав and Амандман на Уставот",
+  "discovered": 5568,
+  "published": 5264,
+  "excluded": [
+    {
+      "identifier": "FEM-DFJ-1945-1-145",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1946-22-198",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1946-23-200",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1948-3-202",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "NRM-1946-24-203",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1948-3-205",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "NRM-1946-29-211",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1946-29-214",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1946-32-227",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1947-2-235",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1947-2-239",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1947-2-241",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1947-2-243",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1947-4-255",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1948-3-315",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1948-3-316",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1948-38-347",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1949-10-365",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "NRM-1949-22-381",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1965-18-419",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "FNRJ-1950-17-427",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1951-29-473",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1951-30-478",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1952-13-488",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1952-22-489",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1952-22-490",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1952-22-491",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1952-23-492",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1953-22-512",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1953-29-513",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1953-29-516",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1953-29-517",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1953-29-520",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1953-29-522",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1955-24-585",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1956-9-599",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1957-20-633",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-9-639",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1977-19-677",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "FNRJ-1957-32-682",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1957-35-685",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1959-34-774",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "FNRJ-1960-20-818",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-32-886",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "FNRJ-1962-33-888",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-39-895",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "FNRJ-1963-13-904",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1963-15-909",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1963-15-910",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1963-15-911",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1965-2-953",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1965-2-955",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1965-4-960",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1965-8-961",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1965-8-962",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1965-12-965",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1981-10-969",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1965-16-982",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1967-4-1042",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1967-4-1044",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1967-16-1053",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1967-16-1054",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1967-23-1082",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1968-9-1117",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1984-8-1133",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1969-4-1173",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1969-4-1175",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1969-5-1177",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1969-20-1192",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1969-28-1206",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1984-35-1209",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1969-55-1232",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1970-16-1244",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1970-17-1250",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1971-20-1286",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1971-24-1292",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1971-35-1321",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1972-18-1367",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1972-34-1388",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1972-44-1403",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1972-67-1417",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1972-67-1419",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1972-67-1420",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1986-47-1477",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1989-37-1655",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1973-24-1780",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1973-33-1796",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1973-40-1813",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1973-40-1816",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1973-47-1825",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-2-1829",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-3-1835",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-5-1837",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-8-1847",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-8-1849",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-8-1850",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-8-1852",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1980-37-1855",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-16-1863",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-16-1865",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-16-1866",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-21-1874",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1974-47-1918",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1991-50-1929",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1975-8-1963",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1976-8-2022",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1976-8-2023",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1976-24-2057",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1976-24-2059",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1976-33-2070",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1976-33-2077",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-7-2090",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1977-5-2102",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1976-53-2108",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-11-2117",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1981-32-2144",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1981-32-2148",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1981-32-2152",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1981-41-2165",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1977-27-2170",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1981-68-2192",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1981-68-2196",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1977-39-2215",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1977-39-2217",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-21-2234",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-21-2239",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-28-2283",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1983-70-2321",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-9-2330",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2334",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2335",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2339",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2343",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2347",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2350",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2352",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2356",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-3-2358",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1984-15-2374",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-44-2395",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-44-2398",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-44-2402",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-25-2413",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-25-2416",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-25-2419",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-46-2429",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-15-2436",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-31-2438",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-41-2484",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-57-2486",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-19-2496",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-44-2510",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1978-24-2522",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-75-2534",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-75-2536",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1985-75-2538",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1987-2-2549",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-87-2588",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-87-2591",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1989-87-2592",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SRM-1986-9-2609",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1988-4-2614",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1986-11-2626",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1979-10-2671",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1979-17-2676",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1986-16-2690",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SRM-1987-40-2733",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1990-1-2757",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SRM-1988-42-2774",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SRM-1988-48-2808",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1986-72-2828",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1987-74-2831",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1991-4-2853",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1991-4-2857",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1991-7-2876",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SRM-1990-13-2883",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1990-14-2886",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1988-51-2893",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1990-16-2899",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1988-51-2953",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1990-20-3016",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1990-20-3020",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1990-20-3025",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SRM-1967-27-3031",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "SFRJ-1988-71-3056",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-1993-8-3262",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "SFRJ-1990-40-3265",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-1996-29-4128",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-1996-21-4364",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-1995-13-4688",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-1995-15-4695",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-1998-34-4873",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-1999-7-5298",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2000-43-6112",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2000-48-6131",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2000-51-6169",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2001-35-6953",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2001-35-6957",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2002-52-7421",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2002-52-7423",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2003-66-7993",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2003-13-8091",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2003-80-8416",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2004-40-8898",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2004-73-9084",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2004-83-9261",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2004-83-9263",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2004-45-9287",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2005-87-9748",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2003-7-9797",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-2005-15-10034",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2005-23-10305",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2005-108-10321",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2005-119-10761",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2006-11-10950",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2006-19-11300",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-2006-21-11323",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2007-58-12294",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2008-24-14969",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2008-144-15789",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2008-157-16051",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2008-160-16213",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-2009-88-17491",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2010-16-18794",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2010-76-19589",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2010-118-20172",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2010-130-20367",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2010-142-20562",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2010-158-20879",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2010-170-21089",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-7-21266",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-9-21308",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-19-21501",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-54-22229",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-55-22267",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-59-22329",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-59-22331",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-60-22346",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2011-185-24163",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-24-24738",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-30-24809",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-38-24906",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-39-24936",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-52-25156",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-65-25502",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-77-25641",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-93-25945",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-100-26085",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2012-153-26896",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-10-27304",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-25-27653",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-26-27676",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-31-27715",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-53-28095",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-53-28096",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-54-28122",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-54-28128",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-59-28197",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-68-28293",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-70-28378",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-70-28381",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-91-28944",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2013-132-29494",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-32-31021",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-34-31054",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-100-32495",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-104-32596",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-112-32911",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-114-33107",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-145-33864",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-151-34014",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-153-34057",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-165-34386",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-177-34587",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2014-184-34727",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-24-35584",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-27-35607",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-75-37081",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-74-37111",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-103-37621",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-123-37890",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-123-37891",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-167-38791",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-201-39431",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2015-33-42603",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-2017-168-42613",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2018-84-42805",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RM-2018-90-42807",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RM-2018-92-42808",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RSM-2020-48-52167",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RSM-2020-302-54584",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2020-302-54588",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2020-302-54592",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2021-110-55994",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2021-28-56272",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2021-122-56298",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2021-150-56602",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2022-141-59965",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2023-87-62796",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RSM-2023-129-63343",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2024-32-65959",
+      "reason": "consolidated text (Пречистена верзија), which LDBIS compiles; the repo publishes each act as enacted, with every amending act as its own file"
+    },
+    {
+      "identifier": "RSM-2024-255-68572",
+      "reason": "LDBIS offers no PDF of this version, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2025-250-72342",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    },
+    {
+      "identifier": "RSM-2026-212-74873",
+      "reason": "the PDF LDBIS links for this version is another document's, so it has no text to publish"
+    }
+  ],
+  "laws_with_version_gaps": 0,
+  "version_gaps": 0,
+  "laws_with_undated_amendments": 0,
+  "undated_amendments": 0
+}

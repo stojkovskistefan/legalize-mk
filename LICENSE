@@ -1,0 +1,15 @@
+LEGALIZE - North Macedonia: legislation as open data
+
+PIPELINE SOFTWARE
+The software that generates and maintains this repository is open source under
+the MIT License:
+https://github.com/legalize-dev/legalize-pipeline
+
+LEGISLATIVE CONTENT
+Documents are reproduced from the official LDBIS source:
+https://ldbis.pravda.gov.mk/Prebaruvanje.aspx
+The original source of each document is recorded in its YAML front matter.
+Consult LDBIS for authoritative legal text and current status.
+
+DISCLAIMER
+This repository is an automated, unofficial mirror and is not legal advice.

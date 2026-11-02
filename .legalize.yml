@@ -1,0 +1,5 @@
+spec_version: "0.5"
+country: "mk"
+layout:
+  - directories: ["*"]
+    path: "{directory}/{id_sha1_2}/{identifier}.md"
