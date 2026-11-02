@@ -1,0 +1,59 @@
+name: Manual LDBIS dry-run (Macedonia)
+
+# Read-only manual smoke check. The scheduled OCR and publishing job is in the maintainer pipeline.
+on:
+  workflow_dispatch:
+    inputs:
+      date:
+        description: "One date to check (YYYY-MM-DD, empty = previous month)"
+        required: false
+        type: string
+        default: ""
+
+permissions:
+  contents: read
+
+concurrency:
+  group: manual-update-check-mk
+  cancel-in-progress: false
+
+jobs:
+  update-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 300
+    steps:
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          fetch-depth: 0
+
+      - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6
+        with:
+          repository: stojkovskistefan/legalize-pipeline
+          ref: 718f5092ec61c7c391a32af0343ab8d59dbc15c8
+          path: pipeline
+          fetch-depth: 1
+
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6
+        with:
+          python-version: "3.12"
+
+      - name: Install pipeline
+        run: pip install -e pipeline
+
+      - name: Validate the PR pipeline without writing
+        env:
+          INPUT_DATE: ${{ github.event.inputs.date || '' }}
+        run: |
+          if [ -n "$INPUT_DATE" ]; then
+            legalize daily -c mk --repo-path . --date "$INPUT_DATE" --dry-run
+          else
+            month_start=$(date -u +%Y-%m-01)
+            first_day=$(date -u -d "$month_start -1 month" +%F)
+            last_day=$(date -u -d "$month_start -1 day" +%F)
+            day="$first_day"
+            while [ "$day" != "$last_day" ]; do
+              legalize daily -c mk --repo-path . --date "$day" --dry-run
+              day=$(date -u -d "$day +1 day" +%F)
+            done
+            legalize daily -c mk --repo-path . --date "$last_day" --dry-run
+          fi
